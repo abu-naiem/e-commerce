@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Lounge Chair | Panto Furniture</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">PANTO</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="#">Living Room</a>
+                <span>/</span>
+                <a href="#">Chairs</a>
+                <span>/</span>
+                <span>Minimalist Lounge Chair</span>
+            </nav>
+
+            <!-- Product Gallery -->
+            <section class="product-gallery">
+                <div class="thumbnail-container">
+                    <div class="thumbnail active" data-target="main1">
+                        <img src="./img/product-1.png" alt="Minimalist Lounge Chair Front View">
+                    </div>
+                    <div class="thumbnail" data-target="main2">
+                        <img src="./img/product-2.png" alt="Minimalist Lounge Chair Side View">
+                    </div>
+                    <div class="thumbnail" data-target="main3">
+                        <img src="./img/product-3.png" alt="Minimalist Lounge Chair Detail">
+                    </div>
+                    <div class="thumbnail" data-target="main4">
+                        <img src="./img/product-4.png" alt="Minimalist Lounge Chair in Space">
+                    </div>
+                </div>
+                <div class="main-image">
+                    <img id="mainImage" src="./img/experience.png" alt="Minimalist Lounge Chair">
+                    <div class="image-zoom">
+                        <i class="fas fa-search-plus"></i> Click to zoom
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Details -->
+            <section class="product-details">
+                <h1>Minimalist Lounge Chair</h1>
+                <div class="product-meta">
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="review-count">(24 reviews)</span>
+                    </div>
+                    <div class="sku">SKU: PANTO-MLC-2023</div>
+                </div>
+
+                <div class="price">
+                    <span class="current-price">$599.00</span>
+                    <span class="original-price">$799.00</span>
+                    <span class="discount">25% OFF</span>
+                </div>
+
+                <div class="product-description">
+                    <p>Our signature Minimalist Lounge Chair combines Scandinavian simplicity with Japanese craftsmanship. The gently curved walnut frame provides exceptional comfort while maintaining clean lines that complement any modern interior.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Solid walnut frame with hand-rubbed oil finish</li>
+                        <li><i class="fas fa-check"></i> Premium wool upholstery (multiple color options)</li>
+                        <li><i class="fas fa-check"></i> Ergonomic design supports natural posture</li>
+                        <li><i class="fas fa-check"></i> Handcrafted by master artisans</li>
+                        <li><i class="fas fa-check"></i> 5-year structural warranty</li>
+                    </ul>
+                </div>
+
+                <div class="color-options">
+                    <h3>Color Options</h3>
+                    <div class="colors">
+                        <div class="color-option active" data-color="natural" style="background-color: #e8c8a2;"></div>
+                        <div class="color-option" data-color="charcoal" style="background-color: #4a4a4a;"></div>
+                        <div class="color-option" data-color="sage" style="background-color: #9caf88;"></div>
+                        <div class="color-option" data-color="slate" style="background-color: #708090;"></div>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                        <input type="number" value="1" min="1" max="10">
+                        <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <button class="btn primary add-to-cart">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn secondary wishlist">
+                        <i class="far fa-heart"></i> Wishlist
+                    </button>
+                </div>
+
+                <div class="delivery-info">
+                    <div class="info-item">
+                        <i class="fas fa-truck"></i>
+                        <span>Free delivery on orders over $500</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-undo"></i>
+                        <span>30-day easy returns</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>5-year warranty included</span>
+                    </div>
+                </div>
+
+                <div class="share-buttons">
+                    <span>Share:</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+
+            <!-- Product Tabs -->
+            <section class="product-tabs">
+                <div class="tabs-header">
+                    <div class="tab active" data-tab="description">Description</div>
+                    <div class="tab" data-tab="specs">Specifications</div>
+                    <div class="tab" data-tab="reviews">Reviews (24)</div>
+                    <div class="tab" data-tab="shipping">Shipping & Returns</div>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-content active" id="description">
+                        <h3>Design Philosophy</h3>
+                        <p>The Minimalist Lounge Chair represents our commitment to "less but better" design. Every curve and joint has been carefully considered to eliminate unnecessary elements while maximizing comfort and durability.</p>
+                        
+                        <h3>Materials & Craftsmanship</h3>
+                        <p>Each chair begins with sustainably sourced walnut that's hand-selected for grain consistency. Our craftsmen use traditional joinery techniques that have been refined over generations, ensuring a piece that will last for decades.</p>
+                        
+                        <h3>Comfort Features</h3>
+                        <p>The chair's ergonomic profile supports the natural curve of your spine, while the slightly reclined angle encourages relaxation. The wool upholstery is naturally breathable and becomes softer with use.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="specs">
+                        <table>
+                            <tr>
+                                <th>Dimensions</th>
+                                <td>28" W x 32" D x 30" H</td>
+                            </tr>
+                            <tr>
+                                <th>Seat Height</th>
+                                <td>18"</td>
+                            </tr>
+                            <tr>
+                                <th>Weight Capacity</th>
+                                <td>300 lbs</td>
+                            </tr>
+                            <tr>
+                                <th>Frame Material</th>
+                                <td>Solid American Walnut</td>
+                            </tr>
+                            <tr>
+                                <th>Upholstery</th>
+                                <td>100% Premium Wool (Oeko-Tex Certified)</td>
+                            </tr>
+                            <tr>
+                                <th>Assembly</th>
+                                <td>Required (tools included)</td>
+                            </tr>
+                            <tr>
+                                <th>Weight</th>
+                                <td>28 lbs</td>
+                            </tr>
+                            <tr>
+                                <th>Made In</th>
+                                <td>Portland, Oregon</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="tab-content" id="reviews">
+                        <div class="review-summary">
+                            <div class="overall-rating">
+                                <div class="average">4.7</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="total">Based on 24 reviews</div>
+                            </div>
+                            <div class="rating-bars">
+                                <div class="bar">
+                                    <span>5 stars</span>
+                                    <div class="progress">
+                                        <div class="progress-fill" style="width: 75%;"></div>
+                                    </div>
+                                    <span>18</span>
+                                </div>
+                                <div class="bar">
+                                    <span>4 stars</span>
+                                    <div class="progress">
+                                        <div class="progress-fill" style="width: 20%;"></div>
+                                    </div>
+                                    <span>5</span>
+                                </div>
+                                <div class="bar">
+                                    <span>3 stars</span>
+                                    <div class="progress">
+                                        <div class="progress-fill" style="width: 5%;"></div>
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="bar">
+                                    <span>2 stars</span>
+                                    <div class="progress">
+                                        <div class="progress-fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span>0</span>
+                                </div>
+                                <div class="bar">
+                                    <span>1 star</span>
+                                    <div class="progress">
+                                        <div class="progress-fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="review-form">
+                            <h3>Write a Review</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label>Your Rating</label>
+                                    <div class="rating-input">
+                                        <i class="far fa-star" data-rating="1"></i>
+                                        <i class="far fa-star" data-rating="2"></i>
+                                        <i class="far fa-star" data-rating="3"></i>
+                                        <i class="far fa-star" data-rating="4"></i>
+                                        <i class="far fa-star" data-rating="5"></i>
+                                        <input type="hidden" name="rating" id="rating-value" value="0">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-title">Review Title</label>
+                                    <input type="text" id="review-title" placeholder="Summarize your experience">
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-text">Your Review</label>
+                                    <textarea id="review-text" rows="5" placeholder="What did you like or dislike about this product?"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-name">Name</label>
+                                    <input type="text" id="review-name" placeholder="Your name">
+                                </div>
+                                <button type="submit" class="btn primary">Submit Review</button>
+                            </form>
+                        </div>
+                        
+                        <div class="review-list">
+                            <div class="review-item">
+                                <div class="review-header">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>Perfect addition to my reading nook</h4>
+                                    <div class="review-meta">By Jennifer K. on October 12, 2023</div>
+                                </div>
+                                <div class="review-body">
+                                    <p>This chair has completely transformed my reading corner. The craftsmanship is exceptional - you can see and feel the quality in every detail. After six months of daily use, it still looks and feels brand new. The wool upholstery is surprisingly comfortable year-round.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="review-item">
+                                <div class="review-header">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h4>Beautiful but firm</h4>
+                                    <div class="review-meta">By Michael T. on September 5, 2023</div>
+                                </div>
+                                <div class="review-body">
+                                    <p>The chair is absolutely stunning and gets compliments from everyone who sees it. The walnut grain is beautiful. I gave 4 stars because the seat is firmer than I expected - not uncomfortable, but took some getting used to. Assembly was straightforward with the included tools.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="shipping">
+                        <h3>Shipping Information</h3>
+                        <p>We offer free standard shipping on all orders over $500. For orders below $500, a flat shipping fee of $49 applies.</p>
+                        <p>Most items ship within 3-5 business days. Made-to-order items typically ship within 2-3 weeks. You'll receive tracking information via email once your order ships.</p>
+                        
+                        <h3>White Glove Delivery</h3>
+                        <p>For an additional $99, our white glove service includes:</p>
+                        <ul>
+                            <li>In-home delivery (ground floor)</li>
+                            <li>Assembly by our delivery team</li>
+                            <li>Removal of all packaging materials</li>
+                            <li>Inspection of the product with you</li>
+                        </ul>
+                        
+                        <h3>Returns & Exchanges</h3>
+                        <p>We offer a 30-day return policy for unused items in original condition. Customer is responsible for return shipping costs. Made-to-order and customized items are final sale.</p>
+                        <p>For damaged or defective items, please contact us within 7 days of delivery for replacement or repair.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Related Products -->
+            <section class="related-products">
+                <h2>You May Also Like</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./img/product-5.png" alt="Minimalist Coffee Table">
+                            <div class="quick-view">Quick View</div>
+                        </div>
+                        <h3>Minimalist Coffee Table</h3>
+                        <div class="price">$449.00</div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./img/product-6.png" alt="Modern Sofa">
+                            <div class="quick-view">Quick View</div>
+                        </div>
+                        <h3>Modern Sofa</h3>
+                        <div class="price">$1,299.00</div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./img/product-7.png" alt="Adjustable Side Table">
+                            <div class="quick-view">Quick View</div>
+                        </div>
+                        <h3>Adjustable Side Table</h3>
+                        <div class="price">$299.00</div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./img/product-8.png" alt="Floor Lamp">
+                            <div class="quick-view">Quick View</div>
+                        </div>
+                        <h3>Floor Lamp</h3>
+                        <div class="price">$249.00</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <!-- Footer content from your landing page -->
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
